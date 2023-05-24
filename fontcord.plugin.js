@@ -18,7 +18,7 @@ const config = {
             }
         ],
     github_raw:
-      "https://raw.githubusercontent.com/Dylusion/Fontcord/main/fontcord.plugin.js",
+      "https://raw.githubusercontent.com/Dylusion/Fontcord/master/fontcord.plugin.js",
     version: "1.0.5",
     description:
       "Adds easy to use custom font configuration with Google Fonts integration",
