@@ -1,6 +1,6 @@
 /**
  * @name Fontcord
- * @version 1.0.5
+ * @version 1.0.6
  * @source "https://github.com/Dylusion/Fontcord"
 */
 const request = require("request");
@@ -19,7 +19,7 @@ const config = {
         ],
     github_raw:
       "https://raw.githubusercontent.com/Dylusion/Fontcord/master/fontcord.plugin.js",
-    version: "1.0.5",
+    version: "1.0.6",
     description:
       "Adds easy to use custom font configuration with Google Fonts integration",
 	},
