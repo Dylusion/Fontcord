@@ -34,50 +34,27 @@ const config = {
     }
   ],
   defaultConfig: [
-    /*
     {
       type: "switch",
-      name: "Enable on Do Not Disturb",
+      name: "Enable Fontcord",
       note: "Enable flashbang effect while on Do Not Disturb",
-      id: "disableOnDnd",
-      value: false,
-    },
-    {
-      type: "switch",
-      name: "Disable DMs Notifications",
-      note: "Disable flashbang effect for DM notifications",
-      id: "ignoreDMs",
-      value: false,
-    },
-    {
-      type: "switch",
-      name: "Disable Group DMs Notifications",
-      note: "Disable flashbang effect for DM group notifications",
-      id: "ignoreDMGroups",
-      value: false,
+      id: "enableFonts",
+      value: true,
     },
     {
       type: "textbox",
-      name: "Ignored Users IDs (Split with `, `)",
-      note: "Disable flashbang effect if message was sent from a specific user",
-      id: "ignoredUsers",
-      value: "",
+      name: "test",
+      note: "test",
+      id: "test1",
+      value: "test",
     },
     {
-      type: "textbox",
-      name: "Ignored Servers IDs (Split with `, `)",
-      note: "Disable flashbang effect if message was sent from a specific server.",
-      id: "ignoredServers",
-      value: "",
-    },
-    {
-      type: "textbox",
-      name: "Ignored Channels IDs (Split with `, `)",
-      note: "Disable flashbang effect if message was sent from a specific channel.",
-      id: "ignoredChannels",
+      type: "colorpicker",
+      name: "test",
+      note: "test",
+      id: "test2",
       value: "",
     }
-    */
   ]
   };
 
