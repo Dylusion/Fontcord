@@ -1,7 +1,7 @@
 /**
- * @name FontCord
- * @version 1.0.4
- * @source "https://github.com/Dylusion/FontcordBD"
+ * @name Fontcord
+ * @version 1.0.5
+ * @source "https://github.com/Dylusion/Fontcord"
 */
 const request = require("request");
 const fs = require("fs");
@@ -19,7 +19,7 @@ const config = {
         ],
     github_raw:
       "https://raw.githubusercontent.com/Dylusion/Fontcord/main/fontcord.plugin.js",
-    version: "1.0.4",
+    version: "1.0.5",
     description:
       "Adds easy to use custom font configuration with Google Fonts integration",
 	},
@@ -34,17 +34,6 @@ const config = {
     }
   ],
   defaultConfig: [
-    {
-      type: "slider",
-      name: "Flash Duration (1/10 Second)",
-      note: "Sets the flash duration",
-      min: 0.1,
-      max: 2.0,
-      id: "flashTime",
-      value: 0.6,
-      markers: [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,2.0],
-      stickToMarkers: true,
-    },
     /*
     {
       type: "switch",
